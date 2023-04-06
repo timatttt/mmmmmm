@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+.main {
+  margin: 0px 0px 0px 13px;
+}
+body,
+a {
+  font-family: Montserrat, sans-serif;
+  color: #22243a;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.coc {
+  background-size: contain;
+  display: inline-block;
+  height: 40px;
+  margin: 18px 0px 0px 0px;
+}
+.coc a {
+  display: inline-block;
+  background-size: contain;
+}
+.fbf {
+  width: 35px;
+  height: 35px;
+  background-image: url(../images/social-fb.svg);
+}
+.fbt {
+  width: 40px;
+  height: 35px;
+  background-image: url(../images/social-tg.svg);
+}
+.fbyt {
+  width: 40px;
+  height: 35px;
+  background-image: url(../images/social-yt.svg);
+}
+.fbin {
+  width: 40px;
+  height: 35px;
+  background-image: url(../images/social-ig.svg);
+}
+.fbv {
+  width: 40px;
+  height: 35px;
+  background-image: url(../images/social-tg.svg);
+}
+
+header {
+  display: flex;
+
+  background-color: rgb(48, 63, 159);
+  height: 100px;
+}
+.nav {
+  font-size: 20px;
+  padding: 3px;
+  min-width: 100%;
+  border-bottom: 7px solid rgb(48, 63, 159);
+}
+.nav li {
+  font-size: 40px;
+  display: inline-block;
+  margin: 0px 90px 0px 0px;
+}
+.coc li {
+  display: inline-block;
+
+  border: 1px solid rgb(99, 98, 98);
+}
+.logo {
+  display: inline-block;
+
+  margin: 11px 0px 0px 400px;
+}
+a {
+  color: black;
+}
+.text-money h1 {
+  font-weight: 800;
+}
+.text-money {
+  font-size: 25px;
+  max-width: 900px;
+  display: inline-block;
+}
+.date {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  display: flex;
+}
+.invest {
+  font-size: 20px;
+  border-right: 2px solid grey;
+  height: 30px;
+  margin: 4px 0px 0px 0px;
+  padding: 0px 0px 7px 0px;
+  text-align: center;
+}
+.chic {
+  font-size: 15px;
+  align-self: center;
+}
+.news {
+  float: right;
+  margin: 20px 30px 0px 0px;
+
+  font-size: 16px;
+}
+.news h3 {
+  font-size: 25px;
+  margin: 8px 0px 10px 0px;
+  border-bottom: 2px solid grey;
+}
+.screen {
+  display: flex;
+  justify-content: center;
+}
+.elslot {
+  margin: 20px 0px 0px 0px;
+  font-size: 20px;
+  max-width: 900px;
+}
+.elslot h2 {
+  color: rgb(41, 59, 197);
+  font-weight: 600;
+}
+.adds a {
+  float: right;
+  margin: 30px 30px 0px 0px;
+}
+
+textarea {
+}
+.reg-sub ul {
+  background-color: rgb(239, 239, 241);
+}
+.reg-sub {
+  display: inline-block;
+}
+.reg-sub li {
+  display: inline-block;
+}
+.text {
+  border: 1px solid #22243a;
+  display: inline-block;
+  background-color: rgb(239, 239, 241);
+}
+.in {
+  background-color: rgb(41, 59, 197);
+  margin: 0px 0px 0px 0px;
+}
+
+.cazino2 li {
+  color: rgb(41, 59, 197);
+
+  display: inline-block;
+}
+.cazino2 a {
+  border: 2px solid rgb(41, 59, 197);
+  font-size: 20px;
+  border-radius: 10%;
+  padding: 3px;
+}
+.forms {
+  margin-bottom: 20px;
+}
